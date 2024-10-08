@@ -2,13 +2,13 @@ const config = {
   owner: "6281329731976", // NOMOR WA LU
   siteName: "𝘚𝘈𝘛𝘏𝘠𝘈 𝘚𝘛𝘖𝘙𝘌", // NAMA STORE MU
   products: [
-    { // SALIN DARI SINI
-      id: 1, // ID PRODUK MU (TERSERAH YG PENTING NOMER BUKAN HURUF)
-      name: "Promo ADMIN PANEL", // NAMA PRODUK MU
-      price: "Rp 25.000", // HARGA PRODUK MU
-      description: "Special promo for ADMIN PANEL.", // DESKRIPSI PRODUK MU
-      image: "/images/IMG-20241004-WA0003.jpg" // GAMBAR PRODUK MU
-    }, // SAMPAI SINI
+    {
+      id: 1,
+      name: "Promo ADMIN PANEL",
+      price: "Rp 25.000",
+      description: "Special promo for ADMIN PANEL.",
+      image: "/images/IMG-20241004-WA0003.jpg"
+    },
     {
       id: 2,
       name: "PT PANEL",
@@ -155,49 +155,49 @@ const config = {
       price: "Rp 50.000",
       description: "SC for SPAM PAIRING CODE.",
       image: "/images/sc.jpg"
-    }
-  ],
+    },
+];
 
-  additionalInfo: {
-    pricing: {
-      publicPanel: {
-        description: "Keuntungan Panel Public",
-        benefits: [
-          "Hemat Kuota/Penyimpanan",
-          "Bot On 24 Jam",
-          "Panel Fast",
-          "60% Anti Lag",
-          "Spek RAM 8 Core 4",
-          "Garansi 15 Hari",
-          "Dan Lain-lain"
-        ]
-      },
-      privatePanel: {
-        description: "Keuntungan Panel Private",
-        benefits: [
-          "Server Terjaga",
-          "90% Anti Lag",
-          "100% Script Aman",
-          "Anti Curian Script",
-          "Anti Delete Server",
-          "Panel Cepat",
-          "Spek RAM 8 Core 4",
-          "Bot Lebih Fast Respons",
-          "Run Bot 24 Jam",
-          "Hemat Kuota/Penyimpanan",
-          "Garansi FULL [15 Hari]",
-          "Free Pengajaran Run Bot",
-          "Dibimbing Langsung Oleh Owner"
-        ]
-      }
+const additionalInfo = {
+  pricing: {
+    publicPanel: {
+      description: "Keuntungan Panel Public",
+      benefits: [
+        "Hemat Kuota/Penyimpanan",
+        "Bot On 24 Jam",
+        "Panel Fast",
+        "60% Anti Leg",
+        "Spek RAM 8 Core 4",
+        "Garansi 15 Day",
+        "DLL"
+      ]
     },
-    contact: {
-      owner: "https://wa.me/6281329731976",
-      testimonial: "https://whatsapp.com/channel/0029ValD4IA9MF8ypTzTvM42",
-      marketingGroup: "https://chat.whatsapp.com/E9zbeP21mia7ZaefgimbAD"
-    },
-    note: "NOTE: GARANSI 15 HARI"
-  }
+    privatePanel: {
+      description: "Keuntungan Panel Private",
+      benefits: [
+        "Server Terjaga",
+        "90% Anti Lag",
+        "100% Script Aman",
+        "Anti Curian Script",
+        "Anti Delete Server",
+        "Panel Cepat",
+        "Spek RAM 8 Core 4",
+        "Bot Lebih Fast Respons",
+        "Run Bot 24 Jam",
+        "Hemat Kuota/Penyimpanan",
+        "Garansi FULL [15 DAY]",
+        "Free Pengajaran Run Bot",
+        "Dipahtau Langsung Oleh Owner"
+      ]
+    }
+  },
+  contact: {
+    owner: "https://wa.me/6281329731976",
+    testimonial: "https://whatsapp.com/channel/0029ValD4IA9MF8ypTzTvM42",
+    marketingGroup: "https://chat.whatsapp.com/E9zbeP21mia7ZaefgimbAD"
+  },
+  note: "NOTE: GARANSI 15 HARI"
 };
+
 
 export default config;
