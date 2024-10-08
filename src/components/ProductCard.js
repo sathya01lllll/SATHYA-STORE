@@ -2,7 +2,7 @@ import React from 'react';
 import {
   motion
 } from 'framer-motion'; // Import framer-motion
-import config from '../config';
+import pterodactylImage from '../images/IMG-20241004-WA0003.jpg';
 
 function ProductCard( {
   product, onOpenModal
@@ -27,8 +27,6 @@ function ProductCard( {
       }
     } // Efek saat kartu diklik
   };
-  
-  const prod = config.products;
 
   return (
     <motion.div
@@ -38,17 +36,17 @@ function ProductCard( {
       animate="visible"
       whileTap="clicked" // Efek saat diklik
       >
-      <img className="w-full" src={prod.image} alt={prod.name} />
+      <img className="w-full" src={pterodactylImage} alt={product.name} />
     <div className="px-6 py-4">
       <div className="font-bold text-xl mb-2">
-        {prod.name}
+        {product.name}
       </div>
       <p className="text-gray-700 text-base">
-        {prod.description}
+        {product.description}
       </p>
       <div className="flex justify-left mt-4">
         <span className="inline-block bg-gray-200 text-gray-800 text-sm font-bold px-4 py-2 rounded-full">
-          {prod.price}
+          {product.price}
         </span>
       </div>
     </div>
